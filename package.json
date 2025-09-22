@@ -1,0 +1,27 @@
+{
+  "name": "dhabax",
+  "version": "1.0.0",
+  "description": "Food Ordering React-App",
+  "scripts": {
+    "start" : "parcel index.html",
+    "build" : "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayushpundir/DhabaX.git"
+  },
+  "author": "Ayush Pundir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayushpundir/DhabaX/issues"
+  },
+  "homepage": "https://github.com/ayushpundir/DhabaX#readme",
+  "devDependencies": {
+    "parcel": "^2.16.0"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}

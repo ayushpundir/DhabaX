@@ -1,0 +1,48 @@
+.header {
+  border: 1px solid #000;
+  justify-content: space-between;
+  display: flex;
+}
+
+.logo {
+  width: 150px;
+}
+
+.nav-items {
+  margin-right: 20px;
+}
+
+.nav-items > ul {
+  font-size: 24px;
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  margin: 10px;
+  padding: 10px;
+}
+
+.res-container {
+  flex-wrap: wrap;
+  padding: 10px;
+  display: flex;
+}
+
+.res-card {
+  background-color: bisque;
+  width: 180px;
+  height: 320px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.res-card:hover {
+  border: 2px solid #000;
+}
+
+.res-logo {
+  width: 180px;
+  height: 150px;
+}
+/*# sourceMappingURL=DhabaX.3a01df49.css.map */
