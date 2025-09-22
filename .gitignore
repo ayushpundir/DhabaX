@@ -1,2 +1,4 @@
 Namaste_React_All_Asssigments/
 node_modules/
+.parcel-cache/
+dist/
