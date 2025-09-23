@@ -15,6 +15,8 @@ const Body = () => {
 
     //whenever a state variable changes react will re-render my component
     const [listRestaurants, setlistRestaurants] = useState([]);
+    const [filteredRestaurants, setfilteredRestaurants] = useState([]); // filtered list shown
+    const [searchText, setsearchText] = useState("");
 
     useEffect(()=>{
         fetchData();
@@ -25,25 +27,44 @@ const Body = () => {
         const json = await response.json();
         // console.log(json);
         setlistRestaurants(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+        setfilteredRestaurants(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants); // filtered list initially same as full list
+
     } 
 
     //this is Conditional Rendering
-    if(listRestaurants.length === 0) return <Shimmer/>
+if (filteredRestaurants.length === 0) return <Shimmer />;
 
     return (
         <div className="body">
             <div className = "filer">
+
+                <input type="text" placeholder="search here" value = {searchText}
+                onChange={(e)=>{
+                    setsearchText(e.target.value);
+                }}>
+                    
+                </input>
+                <button 
+                onClick={()=>{
+                    const searching = listRestaurants.filter((restaurant)=>{
+                        return restaurant.info.name.toLowerCase().includes(searchText.toLowerCase())
+                    });
+                    setfilteredRestaurants(searching);
+                    
+                }}
+                >search</button>
+
                 <button className = "filter-btn"
                 onClick={()=>{
                     const newList = listRestaurants.filter((restaurants) => restaurants.info.avgRating>=4.5);
-                    setlistRestaurants(newList);
+                    setfilteredRestaurants(newList);
                 }
             }
                 >
                     top rated restaurants</button>
             </div>
             <div className ="res-container"> 
-                {listRestaurants.map((restaurants) => (
+                {filteredRestaurants.map((restaurants) => (
                     <RestaurantCard
                     key = {restaurants.info.id}
                     resData = {restaurants}
