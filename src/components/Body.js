@@ -1,5 +1,5 @@
 import resObj from "../utils/mockData";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import RestaurantCard from "./RestaurantCard";
 
@@ -13,13 +13,25 @@ const Body = () => {
     //as soon as it change it will automatically refresh our component
 
     //whenever a state variable changes react will re-render my component
-    const [listRestaurants, setlistRestaurants] = useState([...resObj]);
+    const [listRestaurants, setlistRestaurants] = useState([]);
+
+    useEffect(()=>{
+        fetchData();
+    }, []);
+
+    const fetchData = async () => {
+        const response = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=30.32750&lng=78.03250&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
+        const json = await response.json();
+        // console.log(json);
+        setlistRestaurants(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+    } 
+
     return (
         <div className="body">
             <div className = "filer">
                 <button className = "filter-btn"
                 onClick={()=>{
-                    const newList = listRestaurants.filter((restaurants) => restaurants.stars>=4);
+                    const newList = listRestaurants.filter((restaurants) => restaurants.info.avgRating>=4.5);
                     setlistRestaurants(newList);
                 }
             }
@@ -29,7 +41,7 @@ const Body = () => {
             <div className ="res-container"> 
                 {listRestaurants.map((restaurants) => (
                     <RestaurantCard
-                    key = {restaurants._id.$oid}
+                    key = {restaurants.info.id}
                     resData = {restaurants}
                     />
                 ))}
