@@ -2,6 +2,7 @@ import resObj from "../utils/mockData";
 import { useEffect, useState } from "react";
 
 import RestaurantCard from "./RestaurantCard";
+import Shimmer from "./Shimmer";
 
 const Body = () => {
     //local state variable 
@@ -25,6 +26,8 @@ const Body = () => {
         // console.log(json);
         setlistRestaurants(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
     } 
+
+    if(listRestaurants.length === 0) return <Shimmer/>
 
     return (
         <div className="body">
