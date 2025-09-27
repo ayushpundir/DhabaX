@@ -20,7 +20,7 @@ const Body = () => {
 
     useEffect(()=>{
         fetchData();
-    }, []);
+    }, []); //since we have passed an empty object it will be called only ones
 
     const fetchData = async () => {
         const response = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=30.32750&lng=78.03250&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING");
@@ -33,7 +33,6 @@ const Body = () => {
 
     //this is Conditional Rendering
 if (filteredRestaurants.length === 0) return <Shimmer />;
-
     return (
         <div className="body">
             <div className = "filer">
