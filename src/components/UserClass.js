@@ -5,6 +5,7 @@ class UserClass extends React.Component{
     constructor(props){
         super(props);
         //creating state variable
+        //use this.setState() to update
         this.state = {
             count: 0,
         };
