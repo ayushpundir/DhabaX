@@ -1,0 +1,64 @@
+@import "tailwindcss";
+/* 
+now we will use tailwind css classes in our project
+.header{
+    display:flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+.logo{
+    width: 150px;
+}
+.nav-items{
+    margin-right: 20px;
+}
+.nav-items > ul {
+    display : flex;
+    list-style-type: none;
+    font-size: 24px;
+}
+.nav-items > ul > li{
+    padding: 10px;
+    margin: 10px;  
+}
+
+.res-container{
+    padding:10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.res-card{
+    height:320px;
+    width: 180px;
+    padding: 5px;
+    background-color:bisque;
+    margin: 5px;
+}
+.res-card:hover{
+    border : 2px solid black;
+}
+.res-logo{
+    height: 150px;
+    width: 180px;
+}
+.filter-btn{
+    margin: 10px;
+    cursor: pointer;
+}
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.shimmer-card{
+    height:320px;
+    width: 180px;
+    padding: 5px;
+    background-color:bisque;
+    margin: 5px;
+}
+.about-section{
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid black;
+} */
