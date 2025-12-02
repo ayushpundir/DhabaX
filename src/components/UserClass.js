@@ -49,7 +49,7 @@ class UserClass extends React.Component{
     render(){ // class based component is a class which have a method "render" which return some peice of jsx
         const {count, name, role, location, bio} = this.state;
         return (
-        <div className="about-section">
+        <div className="about-section m-4 p-4 border border-gray-400 rounded-lg bg-gray-100 hover:bg-gray-200">
             <h2>count: {count}</h2>
             <button onClick={()=>{
                 //never update state variables directly
