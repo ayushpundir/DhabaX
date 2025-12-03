@@ -61,11 +61,15 @@ import res311806 from "../utils/res311806";
 import res807972 from "../utils/res807972";
 import res1091924 from "../utils/res1091924";
 import RestaurantCategory from "./RestaurantCategory";
+import { useState } from "react";
 
 const RestaurantsMenu = () => {
     const { resId } = useParams();
     const resInfo = allResMenuInfo[resId];
-    console.log(resInfo);
+    //console.log(resInfo);
+
+    // we will modify this state variable from child component RestaurantCategory
+    const [ShowIndex, setShowIndex] = useState(-1);
 
     const {name, cuisines, costForTwoMessage} = resInfo?.data.cards[2].card.card.info;
 
@@ -73,7 +77,7 @@ const RestaurantsMenu = () => {
     //console.log(resInfo?.data.cards[4].groupedCard.cardGroupMap.REGULAR.cards); these are the cards of the entire menu i want to filter out  all the categories
 
     const categories = resInfo?.data.cards[4].groupedCard.cardGroupMap.REGULAR.cards.filter((c) => c.card.card["@type"] === "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory");
-    console.log(categories); // contains all the categories of menu
+    //console.log(categories); // contains all the categories of menu
 
     return (
         <div className="menu text-center">
@@ -81,9 +85,13 @@ const RestaurantsMenu = () => {
             <p className = "font-bold text-lg">{cuisines.join(", ")} - {costForTwoMessage}</p>
 
             {/** category acordion */}
-            {categories.map((category) => (
+            {categories.map((category, index) => (
                 <div key={category.card.card.title} className="my-8">
-                    <RestaurantCategory data = {category.card.card}/>
+                    <RestaurantCategory 
+                    data = {category.card.card} 
+                    isOpen={index===ShowIndex ? true : false}
+                    handleClick ={() => setShowIndex(index===ShowIndex ? -1 : index)}
+                    />
                     </div>
 
             ))}
