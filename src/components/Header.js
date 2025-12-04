@@ -2,10 +2,22 @@ import { LOGO_URL } from "../utils/constants";
 import {useState} from "react";
 import {Link} from "react-router";
 import useOnlineStatus from "../utils/useOnlineStatus"; 
+import { useContext } from "react";
+import UserContext from "../utils/UserContext";
 const Header = () => {
 
     const [user, setUser] = useState("login");
     const onlineStatus = useOnlineStatus();
+
+    //const data = useContext(UserContext);
+    const {loggedInUser} = useContext(UserContext); // we just have to write this then no need of context drilling
+    /**
+     * only the data which we have to use at multiple places we have to put in context
+     * don't put everything in context some might think that there is no need of props at all we can put everything in context
+     * that's wrong because context is used for only those data which we have to use at multiple places 
+     * because context has some performance issues
+     * in class based components we have to use UserContext.consumer as we can't use hooks there
+     */
 
     return (
         <div className="flex justify-between bg-pink-100 shadow-lg">
@@ -35,6 +47,7 @@ const Header = () => {
                 }
             }}
             >{user}</button>
+                    <li className="px-4 font-bold">{loggedInUser}</li>
                 </ul>
             </div>
         </div>
