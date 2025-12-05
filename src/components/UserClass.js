@@ -6,7 +6,7 @@
  * when a class is instanciated the constructor is called (basics)
  */
 import React from "react";
-
+import UserContext from "../utils/UserContext";
 class UserClass extends React.Component{
     constructor(props){ //constructor are used to receive the props
         super(props);
@@ -65,6 +65,12 @@ class UserClass extends React.Component{
             <h2>role: {role}</h2>
             <h3>Location: {location}</h3>
             <h3>Bio: {bio}</h3>
+            {/* consuming context in class based component here we can't use hooks*/}
+            <UserContext.Consumer>
+                {(data) => (
+                    <h4>current loggedInUser :  {data.loggedInUser}</h4>
+                )}
+            </UserContext.Consumer>
         </div>
     );
     }
