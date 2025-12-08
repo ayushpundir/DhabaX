@@ -1,11 +1,13 @@
 import resObj from "../utils/mockData";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useContext} from "react";
 
 import RestaurantCard, {withPromotedLabel} from "./RestaurantCard";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import liveMockData from "../utils/liveMockData";
+
+import UserContext from "../utils/UserContext"; //why this line is giving error!!
 
 const Body = () => {
     //local state variable 
@@ -26,6 +28,8 @@ const Body = () => {
     const [searchText, setsearchText] = useState("");
 
     const PromotedRestaurantCard = withPromotedLabel(RestaurantCard);
+
+    const {loggedInUser, setUserName} = useContext(UserContext);
 
    // console.log(listRestaurants);
 
@@ -87,6 +91,10 @@ if (filteredRestaurants.length === 0) return <Shimmer />;
             }
                 >
                     top rated restaurants</button>
+                </div>
+                <div className="m-4 p-4 flex items-center">
+                    <label>username:</label>
+                    <input className="p-4 border border-black" value = {loggedInUser} onChange={(e)=>setUserName(e.target.value)}></input>
                 </div>
             </div>
             <div className ="flex flex-wrap res-container"> 
