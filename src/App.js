@@ -10,6 +10,9 @@ import {createBrowserRouter, RouterProvider} from "react-router";
 import { Outlet } from "react-router";
 import UserContext from "/src/utils/UserContext";
 import { useEffect, useState } from "react";
+import { Provider } from "react-redux";
+import appStore from "./utils/appStore";
+import Cart from "./components/Cart";
 //import Grocery from "./components/Grocery";
 
     const Grocery = lazy(() => import("./components/Grocery"));
@@ -20,13 +23,17 @@ const AppLayout = () => {
 
     useEffect(() => {
         //this useEffect will run only once when AppLayout is mounted
+        //here we can make an API call and get the user info and update the userContext value
         setUserName("Ayush Pundir");
     }, []);
 
     //suppose we have done something in our project and our user is chaged i.e. value in userContext now how that can be updated wherever we have used it
-    return (
+
+    //this is the root of our application we need to provide our appStore to this  
+    return ( 
+        <Provider store={appStore}>
         <UserContext.Provider value = {{
-            loggedInUser: userName,
+            loggedInUser: userName, setUserName
         }}> 
 
 
@@ -40,6 +47,7 @@ const AppLayout = () => {
             <Outlet/>
         </div>
         </UserContext.Provider>
+        </Provider>
     )
 };
 
@@ -67,6 +75,9 @@ const routerConfig = createBrowserRouter([
             {
                 path: "/restaurants/:resId", //dynamic id
                 element:<RestaurantsMenu/>
+            },{
+                path: "/cart",
+                element:<Cart/>
             }
         ],
         errorElement: <Error/>
