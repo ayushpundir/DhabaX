@@ -30,6 +30,8 @@
 // };
 // export default ItemList;
 import { CDN_URL } from "../utils/constants";
+import { useDispatch } from "react-redux";
+import { addItem } from "../utils/redux-slices/cartSlice";
 
 const ItemList = ({ items }) => {
   //console.log(items);
@@ -38,6 +40,22 @@ const ItemList = ({ items }) => {
    * in RestaurantMenu.js we are passing itemCards array for each category to ItemList component
    * so one by one we will get items of all categories eg first we will get array of recommended, then array of top picks etc.
    */
+
+  const dispatch = useDispatch();
+  const handleAddItem = (item) => {
+    //dispatch an action
+    dispatch(addItem(item));
+  };
+  // this pizza is passed to the second argument 'action' of reducer function in cartSlice.js
+  //redux manages this action object internally
+  //this pizza is the payload we are sending to the reducer function
+  // it creates an action object like this 
+  // const action = {
+  //   type: "cart/addItem", 
+  //   payload: "pizza"
+  // }
+  //whatever we pass to dispatch function it becomes payload of action object
+  
   return (
     <div>
       {items.map((item) => (
@@ -68,7 +86,8 @@ const ItemList = ({ items }) => {
               src={CDN_URL + item.card.info.imageId}
             />
             <div className="absolute -bottom-3 right-2 sm:bottom-2 sm:right-2">
-              <button className="rounded-full bg-green-500 px-3 py-1 text-xs font-semibold text-white shadow-md transition hover:bg-green-600 active:scale-95">
+              <button className="rounded-full bg-green-500 px-3 py-1 text-xs font-semibold text-white shadow-md transition hover:bg-green-600 active:scale-95"
+              onClick={() => handleAddItem(item)}>
                 Add +
               </button>
             </div>
