@@ -22,6 +22,9 @@ const Header = () => {
      */
 
     const cartItems = useSelector((store) => store.cart.items);
+    //selecting right portion of the store is important to optimize the performance of the app
+    // we can't do const cartItems = useSelector((store) => store); because whenever any change happens in the store the entire component will re render
+    // but if we select only cart items then only when cart items change this component will re render
 
     return (
         <div className="flex justify-between bg-pink-100 shadow-lg">
