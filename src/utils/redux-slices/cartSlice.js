@@ -12,7 +12,17 @@ const cartSlice = createSlice({
     },
     reducers: {
         addItem : (state, action) => {
+
+            /**In valina (older) redux 
+             * we were not allowed to mutate the state directly
+             * we had to return a new state object, returning was mandatory
+             * const newState = {...state}
+             * newState.items.push(action.payload);
+             * return newState;
+            */
+            // but now redux toolkit says that we HAVE to mutate the state directly 
             // we are mutating the state directly here
+            //but internally redux toolkit uses immer library which does the immutability stuff for us
             state.items.push(action.payload);
         },
         removeItem : (state, action) => {
@@ -22,7 +32,7 @@ const cartSlice = createSlice({
         },
         clearCart : (state) => {
             //state.items.length = 0;
-            //state = []; //this will not work as we are reassigning state variable
+            //state = []; //this will not work as we are reassigning local state variable of the function, not mutating the original state
             state.items = []; //this will work
         }
     }
