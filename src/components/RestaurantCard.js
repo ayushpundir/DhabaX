@@ -3,7 +3,7 @@ import { CDN_URL } from "../utils/constants";
 const RestaurantCard = ({resData}) => { // these are props which contain object of everything we pass to it prop = {resData: restaurant data}
  const {name, cuisines, avgRating, cloudinaryImageId} = resData.info;
     return (
-        <div className= "m-4 p-4 w-[200px] rounded-lg bg-gray-100 hover:bg-gray-200" id = {resData.info.id}>
+        <div className= "m-4 p-4 w-[200px] rounded-lg bg-gray-200 hover:bg-gray-200" id = {resData.info.id}>
             <img className = "res-logo rounded-lg"
             src = {CDN_URL+cloudinaryImageId}
             />
