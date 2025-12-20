@@ -27,7 +27,7 @@ const Header = () => {
     // but if we select only cart items then only when cart items change this component will re render
 
     return (
-        <div className="flex justify-between bg-pink-100 shadow-lg">
+        <div className="flex justify-between bg-gray-100 shadow-lg">
             <div className = "logo-container">
                 <img className = "w-32" 
                 src = {LOGO_URL}>
