@@ -1,4 +1,3 @@
-import resObj from "../utils/mockData";
 import { useEffect, useState, useContext} from "react";
 
 import RestaurantCard, {withPromotedLabel} from "./RestaurantCard";
@@ -49,8 +48,8 @@ const Body = () => {
     useEffect(()=>{
         const resInfo = liveMockData;
 
-    setlistRestaurants(resInfo?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
-    setfilteredRestaurants(resInfo?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants); // filtered list initially same as full list
+    setlistRestaurants(resInfo?.data?.cards[0]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+    setfilteredRestaurants(resInfo?.data?.cards[0]?.card?.card?.gridElements?.infoWithStyle?.restaurants); // filtered list initially same as full list
 
     }, []); //dummy useEffect to avoid warning
 
