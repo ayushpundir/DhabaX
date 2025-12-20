@@ -49,8 +49,8 @@ const Body = () => {
     useEffect(()=>{
         const resInfo = liveMockData;
 
-    setlistRestaurants(resInfo?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
-    setfilteredRestaurants(resInfo?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants); // filtered list initially same as full list
+    setlistRestaurants(resInfo?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants);
+    setfilteredRestaurants(resInfo?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants); // filtered list initially same as full list
 
     }, []); //dummy useEffect to avoid warning
 
@@ -63,7 +63,7 @@ if (filteredRestaurants.length === 0) return <Shimmer />;
     return (
         <div className="body">
             <div className = "filer flex">
-                <div className="search m-4 p-4">
+                <div className="search m-1 p-4">
 
                 <input type="text" className="border border-solid border-black" placeholder="search here" value = {searchText}
                 onChange={(e)=>{
@@ -82,7 +82,7 @@ if (filteredRestaurants.length === 0) return <Shimmer />;
                 >search</button> 
                 </div>
 
-                <div className="m-4 p-4 flex items-center">
+                <div className="m-1 p-4 flex items-center">
                     <button className = "filter-btn px-4 py-2 bg-gray-100 rounded-lg"
                 onClick={()=>{
                     const newList = listRestaurants.filter((restaurants) => restaurants.info.avgRating>=4.5);
@@ -92,9 +92,9 @@ if (filteredRestaurants.length === 0) return <Shimmer />;
                 >
                     top rated restaurants</button>
                 </div>
-                <div className="m-4 p-4 flex items-center">
-                    <label>username:</label>
-                    <input className="p-4 border border-black" value = {loggedInUser} onChange={(e)=>setUserName(e.target.value)}></input>
+                <div className="m-1 p-4 flex items-center">
+                    <label>username</label>
+                    <input className="ml-1 p-2 border-2 border-black rounded-lg" value = {loggedInUser} onChange={(e)=>setUserName(e.target.value)}></input>
                 </div>
             </div>
             <div className ="flex flex-wrap res-container"> 
