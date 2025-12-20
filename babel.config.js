@@ -1,10 +1,15 @@
 module.exports = {
-  presets: [['@babel/preset-env', {targets: {node: 'current'}}]],
+  presets: [['@babel/preset-env', {targets: {node: 'current'}}],
+  ["@babel/preset-react", { runtime: "automatic"}],
+  ],
 };  
+
+//this @babel/preset-react helps testing libraries like React Testing Library to properly render and test React components
+
 // This configuration file tells Babel to use the preset-env preset,
 // jest uses this to transpile modern JavaScript features to a version compatible with the current Node.js environment.
 /**
- * Jest runs tests inside a Node.js environment, not the browser.
+ * Jest runs tests inside a Node.js environment for backend and in jsdom for frontend, not the browser.
  * Modern JavaScript features (ES6+) like import/export, async/await, classes,
  * optional chaining, etc. may not be fully supported by the current Node version.
  *
