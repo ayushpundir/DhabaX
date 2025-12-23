@@ -1,0 +1,2081 @@
+{
+  "statusCode": 0,
+  "data": {
+    "statusMessage": "done successfully",
+    "pageOffset": {
+      "nextOffset": "CJhlELQ4KIDg+7CE3922BTCnEzgD",
+      "widgetOffset": {
+        "NewListingView_category_bar_chicletranking_TwoRows": "",
+        "NewListingView_category_bar_chicletranking_TwoRows_Rendition": "",
+        "Restaurant_Group_WebView_SEO_PB_Theme": "",
+        "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo": "9",
+        "inlineFacetFilter": "",
+        "restaurantCountWidget": ""
+      }
+    },
+    "cards": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+            "header": {
+              "title": "Top restaurant chains in Dehradun",
+              "action": {
+
+              },
+              "headerStyling": {
+                "padding": {
+                  "left": 16,
+                  "top": 28,
+                  "bottom": 18
+                }
+              }
+            },
+            "layout": {
+              "rows": 1,
+              "columns": 20,
+              "horizontalScrollEnabled": true,
+              "itemSpacing": 32,
+              "widgetPadding": {
+
+              },
+              "containerStyle": {
+                "containerPadding": {
+                  "left": 16,
+                  "right": 12,
+                  "bottom": 12
+                }
+              },
+              "scrollBar": {
+                "scrollThumbColor": "#E46D47",
+                "scrollTrackColor": "#02060C",
+                "width": 54,
+                "height": 4,
+                "scrollStyling": {
+                  "padding": {
+                    "top": 6,
+                    "bottom": 24
+                  }
+                }
+              },
+              "widgetTheme": {
+                "defaultMode": {
+                  "backgroundColour": "#1B3028",
+                  "theme": "THEME_TYPE_DARK"
+                },
+                "darkMode": {
+                  "backgroundColour": "#1B3028",
+                  "theme": "THEME_TYPE_DARK"
+                }
+              }
+            },
+            "id": "top_brands_for_you",
+            "gridElements": {
+              "infoWithStyle": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.FavouriteRestaurantInfoWithStyle",
+                "restaurants": [
+                  {
+                    "info": {
+                      "id": "78973",
+                      "name": "Pizza Hut",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/9/1/4a85a758-8c72-4abf-9219-87df3fcce005_78973.JPG",
+                      "locality": "Vasant Vihar",
+                      "areaName": "Vasant Vihar",
+                      "costForTwo": "₹350 for two",
+                      "cuisines": [
+                        "Pizzas"
+                      ],
+                      "avgRating": 4.1,
+                      "parentId": "721",
+                      "avgRatingString": "4.1",
+                      "totalRatingsString": "7.7K+",
+                      "sla": {
+                        "deliveryTime": 43,
+                        "lastMileTravel": 4.3,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "40-45 mins",
+                        "lastMileTravelString": "4.3 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-12-03 04:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "Rxawards/_CATEGORY-Pizza.png",
+                            "description": "Delivery!"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "Delivery!",
+                                  "imageId": "Rxawards/_CATEGORY-Pizza.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+
+                          },
+                          "textExtendedBadges": {
+
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹99"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+
+                          },
+                          "video": {
+
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "4.5",
+                          "ratingCount": "1.1K+"
+                        },
+                        "source": "GOOGLE",
+                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-086c27fd-8bc3-4f74-9364-d766d2e517fc"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/dehradun/pizza-hut-vasant-vihar-rest78973",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "807972",
+                      "name": "Theobroma",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/10/27/9e82ccad-7dd8-4621-9503-e5f3141de9d2_807972.JPG",
+                      "locality": "Rajpur Road",
+                      "areaName": "Rajpur Road",
+                      "costForTwo": "₹300 for two",
+                      "cuisines": [
+                        "Bakery",
+                        "Desserts",
+                        "Beverages"
+                      ],
+                      "avgRating": 4.6,
+                      "parentId": "1040",
+                      "avgRatingString": "4.6",
+                      "totalRatingsString": "2.1K+",
+                      "sla": {
+                        "deliveryTime": 16,
+                        "lastMileTravel": 1.7,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "15-20 mins",
+                        "lastMileTravelString": "1.7 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-12-03 00:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "android/static-assets/icons/big_rx.png",
+                            "description": "bolt!"
+                          },
+                          {
+                            "imageId": "newg.png",
+                            "description": "Gourmet"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "bolt!",
+                                  "imageId": "android/static-assets/icons/big_rx.png"
+                                }
+                              },
+                              {
+                                "attributes": {
+                                  "description": "Gourmet",
+                                  "imageId": "newg.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+
+                          },
+                          "textExtendedBadges": {
+
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹99"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+
+                          },
+                          "video": {
+
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "4.1",
+                          "ratingCount": "120"
+                        },
+                        "source": "GOOGLE",
+                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-086c27fd-8bc3-4f74-9364-d766d2e517fc"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/dehradun/theobroma-rajpur-road-rest807972",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "69701",
+                      "name": "Ellora's Melting Moments",
+                      "cloudinaryImageId": "3bdf48e50f6b4d0031221401440defbb",
+                      "locality": "Rajpur Road",
+                      "areaName": "Rajpur Road",
+                      "costForTwo": "₹500 for two",
+                      "cuisines": [
+                        "Bakery",
+                        "Snacks",
+                        "Desserts",
+                        "Italian"
+                      ],
+                      "avgRating": 4.6,
+                      "parentId": "13689",
+                      "avgRatingString": "4.6",
+                      "totalRatingsString": "29K+",
+                      "sla": {
+                        "deliveryTime": 27,
+                        "lastMileTravel": 2.5,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "25-30 mins",
+                        "lastMileTravelString": "2.5 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-12-02 21:30:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "Rxawards/_CATEGORY-Desserts.png",
+                            "description": "Delivery!"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "Delivery!",
+                                  "imageId": "Rxawards/_CATEGORY-Desserts.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+
+                          },
+                          "textExtendedBadges": {
+
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹99"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+
+                          },
+                          "video": {
+
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "4.4",
+                          "ratingCount": "8.9K+"
+                        },
+                        "source": "GOOGLE",
+                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-086c27fd-8bc3-4f74-9364-d766d2e517fc"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/dehradun/elloras-melting-moments-rajpur-road-rest69701",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "371422",
+                      "name": "Handi Punjab Ki",
+                      "cloudinaryImageId": "vozwrqdkvfcfutehx4ld",
+                      "locality": "Rajpur Road",
+                      "areaName": "Hathibarkala Salwala",
+                      "costForTwo": "₹350 for two",
+                      "cuisines": [
+                        "North Indian",
+                        "Snacks",
+                        "Chinese"
+                      ],
+                      "avgRating": 4.4,
+                      "veg": true,
+                      "parentId": "93115",
+                      "avgRatingString": "4.4",
+                      "totalRatingsString": "31K+",
+                      "sla": {
+                        "deliveryTime": 25,
+                        "lastMileTravel": 3,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-25 mins",
+                        "lastMileTravelString": "3.0 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-12-02 17:30:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "Rxawards/_CATEGORY-North%20Indian.png",
+                            "description": "Delivery!"
+                          },
+                          {
+                            "imageId": "Ratnesh_Badges/Rx_Awards_2025/_Milestone%20Restaurants.png",
+                            "description": "Delivery!"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "Delivery!",
+                                  "imageId": "Rxawards/_CATEGORY-North%20Indian.png"
+                                }
+                              },
+                              {
+                                "attributes": {
+                                  "description": "Delivery!",
+                                  "imageId": "Ratnesh_Badges/Rx_Awards_2025/_Milestone%20Restaurants.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+
+                          },
+                          "textExtendedBadges": {
+
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹89"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+
+                          },
+                          "video": {
+
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "--"
+                        }
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-086c27fd-8bc3-4f74-9364-d766d2e517fc"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/dehradun/handi-punjab-ki-rajpur-road-hathibarkala-salwala-rest371422",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "69500",
+                      "name": "Rajdhani Chicken Point",
+                      "cloudinaryImageId": "jkkhgvwcjvpfheq8ftbv",
+                      "locality": "Race Course",
+                      "areaName": "Gandhi Road",
+                      "costForTwo": "₹250 for two",
+                      "cuisines": [
+                        "Mughlai"
+                      ],
+                      "avgRating": 4.2,
+                      "parentId": "13692",
+                      "avgRatingString": "4.2",
+                      "totalRatingsString": "28K+",
+                      "sla": {
+                        "deliveryTime": 29,
+                        "lastMileTravel": 1.6,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "25-30 mins",
+                        "lastMileTravelString": "1.6 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-12-02 23:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "android/static-assets/icons/big_rx.png",
+                            "description": "bolt!"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "bolt!",
+                                  "imageId": "android/static-assets/icons/big_rx.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+
+                          },
+                          "textExtendedBadges": {
+
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹120"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+
+                          },
+                          "video": {
+
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "3.6",
+                          "ratingCount": "336"
+                        },
+                        "source": "GOOGLE",
+                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-086c27fd-8bc3-4f74-9364-d766d2e517fc"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/dehradun/rajdhani-chicken-point-race-course-gandhi-road-rest69500",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "73011",
+                      "name": "KFC",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/10/17/493e3ed2-7438-4bc7-b4fc-37844f252182_73011.JPG",
+                      "locality": "Prem Nagar",
+                      "areaName": "Prem Nagar",
+                      "costForTwo": "₹300 for two",
+                      "cuisines": [
+                        "Burgers",
+                        "Fast Food",
+                        "Rolls & Wraps"
+                      ],
+                      "avgRating": 4.2,
+                      "parentId": "547",
+                      "avgRatingString": "4.2",
+                      "totalRatingsString": "11K+",
+                      "sla": {
+                        "deliveryTime": 22,
+                        "lastMileTravel": 1.2,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-25 mins",
+                        "lastMileTravelString": "1.2 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-12-03 05:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "android/static-assets/icons/big_rx.png",
+                            "description": "bolt!"
+                          },
+                          {
+                            "imageId": "Rxawards/_CATEGORY-Burger.png",
+                            "description": "Delivery!"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "bolt!",
+                                  "imageId": "android/static-assets/icons/big_rx.png"
+                                }
+                              },
+                              {
+                                "attributes": {
+                                  "description": "Delivery!",
+                                  "imageId": "Rxawards/_CATEGORY-Burger.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+
+                          },
+                          "textExtendedBadges": {
+
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹69"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+
+                          },
+                          "video": {
+
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "4.2",
+                          "ratingCount": "5.7K+"
+                        },
+                        "source": "GOOGLE",
+                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-086c27fd-8bc3-4f74-9364-d766d2e517fc"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/dehradun/kfc-prem-nagar-rest73011",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "311806",
+                      "name": "Burger King",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/18/dfae2b5a-1431-40b4-8fe3-c833ec343dd0_311806.jpg",
+                      "locality": "Dehradun",
+                      "areaName": "Ballupur",
+                      "costForTwo": "₹350 for two",
+                      "cuisines": [
+                        "Burgers",
+                        "American"
+                      ],
+                      "avgRating": 4.3,
+                      "parentId": "166",
+                      "avgRatingString": "4.3",
+                      "totalRatingsString": "21K+",
+                      "sla": {
+                        "deliveryTime": 21,
+                        "lastMileTravel": 1,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-25 mins",
+                        "lastMileTravelString": "1.0 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-12-03 05:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "android/static-assets/icons/big_rx.png",
+                            "description": "bolt!"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "bolt!",
+                                  "imageId": "android/static-assets/icons/big_rx.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+
+                          },
+                          "textExtendedBadges": {
+
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹59"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+
+                          },
+                          "video": {
+
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "4.6",
+                          "ratingCount": "1.6K+"
+                        },
+                        "source": "GOOGLE",
+                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-086c27fd-8bc3-4f74-9364-d766d2e517fc"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/dehradun/burger-king-ballupur-rest311806",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "69801",
+                      "name": "Nanys Bakery",
+                      "cloudinaryImageId": "w0kidct9etk1ak5y3ogv",
+                      "locality": "East canal Road",
+                      "areaName": "Hathibarkala",
+                      "costForTwo": "₹400 for two",
+                      "cuisines": [
+                        "Bakery",
+                        "Chinese",
+                        "Italian",
+                        "Continental"
+                      ],
+                      "avgRating": 4.4,
+                      "parentId": "13686",
+                      "avgRatingString": "4.4",
+                      "totalRatingsString": "19K+",
+                      "sla": {
+                        "deliveryTime": 25,
+                        "lastMileTravel": 2.8,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-25 mins",
+                        "lastMileTravelString": "2.8 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-12-02 22:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "android/static-assets/icons/big_rx.png",
+                            "description": "bolt!"
+                          },
+                          {
+                            "imageId": "Rxawards/_CATEGORY-Desserts.png",
+                            "description": "Delivery!"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "aggregatedDiscountInfoV2": {
+
+                      },
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "bolt!",
+                                  "imageId": "android/static-assets/icons/big_rx.png"
+                                }
+                              },
+                              {
+                                "attributes": {
+                                  "description": "Delivery!",
+                                  "imageId": "Rxawards/_CATEGORY-Desserts.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+
+                          },
+                          "textExtendedBadges": {
+
+                          }
+                        }
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+
+                          },
+                          "video": {
+
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "--"
+                        }
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-086c27fd-8bc3-4f74-9364-d766d2e517fc"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/dehradun/nanys-bakery-east-canal-road-hathibarkala-rest69801",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "657142",
+                      "name": "Punjabi Angithi (Delhi Wale)",
+                      "cloudinaryImageId": "0a59d45ca92d85e5f63f5bc79f3dbb33",
+                      "locality": "Rajpur Road",
+                      "areaName": "Hathibarkala",
+                      "costForTwo": "₹400 for two",
+                      "cuisines": [
+                        "North Indian",
+                        "Chinese",
+                        "Tandoor"
+                      ],
+                      "avgRating": 4.4,
+                      "veg": true,
+                      "parentId": "471145",
+                      "avgRatingString": "4.4",
+                      "totalRatingsString": "29K+",
+                      "sla": {
+                        "deliveryTime": 26,
+                        "lastMileTravel": 4.3,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "25-30 mins",
+                        "lastMileTravelString": "4.3 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-12-03 00:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "Rxawards/_CATEGORY-North%20Indian.png",
+                            "description": "Delivery!"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "Delivery!",
+                                  "imageId": "Rxawards/_CATEGORY-North%20Indian.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+
+                          },
+                          "textExtendedBadges": {
+
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "50% OFF",
+                        "discountTag": "FLAT DEAL"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+
+                          },
+                          "video": {
+
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "--"
+                        }
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-086c27fd-8bc3-4f74-9364-d766d2e517fc"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/dehradun/punjabi-angithi-delhi-wale-rajpur-road-hathibarkala-rest657142",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "253768",
+                      "name": "McDonald's",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/1/9/f05426f2-a35c-4c16-b0be-c7a3bb8e7d79_253768.JPG",
+                      "locality": "Rajpur Road",
+                      "areaName": "Karanpur",
+                      "costForTwo": "₹400 for two",
+                      "cuisines": [
+                        "American"
+                      ],
+                      "avgRating": 4.4,
+                      "parentId": "630",
+                      "avgRatingString": "4.4",
+                      "totalRatingsString": "23K+",
+                      "sla": {
+                        "deliveryTime": 18,
+                        "lastMileTravel": 1.7,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "15-20 mins",
+                        "lastMileTravelString": "1.7 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-12-03 03:45:00",
+                        "opened": true
+                      },
+                      "badges": {
+
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+
+                          },
+                          "textBased": {
+
+                          },
+                          "textExtendedBadges": {
+
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹117"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+
+                          },
+                          "video": {
+
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "4.1",
+                          "ratingCount": "9.5K+"
+                        },
+                        "source": "GOOGLE",
+                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-086c27fd-8bc3-4f74-9364-d766d2e517fc"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/dehradun/mcdonalds-rajpur-road-karanpur-rest253768",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "69447",
+                      "name": "Gaylord Express",
+                      "cloudinaryImageId": "uj68ybtfwbydewraxzhm",
+                      "locality": "Paltan Bazar",
+                      "areaName": "Paltan Bazaar",
+                      "costForTwo": "₹250 for two",
+                      "cuisines": [
+                        "Bakery",
+                        "Chinese",
+                        "Beverages"
+                      ],
+                      "avgRating": 3.9,
+                      "parentId": "13696",
+                      "avgRatingString": "3.9",
+                      "totalRatingsString": "79K+",
+                      "sla": {
+                        "deliveryTime": 23,
+                        "lastMileTravel": 0.9,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-25 mins",
+                        "lastMileTravelString": "0.9 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-12-09 00:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "Ratnesh_Badges/Rx_Awards_2025/_Legendary%20Restaurants.png",
+                            "description": "Delivery!"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "Delivery!",
+                                  "imageId": "Ratnesh_Badges/Rx_Awards_2025/_Legendary%20Restaurants.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+
+                          },
+                          "textExtendedBadges": {
+
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹99"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+
+                          },
+                          "video": {
+
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "3.2",
+                          "ratingCount": "2.2K+"
+                        },
+                        "source": "GOOGLE",
+                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-086c27fd-8bc3-4f74-9364-d766d2e517fc"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/dehradun/gaylord-express-paltan-bazar-paltan-bazaar-rest69447",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "74852",
+                      "name": "Doon Tripple Nine ( Ballupur)",
+                      "cloudinaryImageId": "p84jrjty8ktstt80fqgh",
+                      "locality": "Kaulagarh Road",
+                      "areaName": "Krishna Nagar",
+                      "costForTwo": "₹380 for two",
+                      "cuisines": [
+                        "Tandoor",
+                        "Snacks",
+                        "Chinese"
+                      ],
+                      "avgRating": 4.3,
+                      "parentId": "74095",
+                      "avgRatingString": "4.3",
+                      "totalRatingsString": "8.3K+",
+                      "sla": {
+                        "deliveryTime": 27,
+                        "lastMileTravel": 1.2,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "25-30 mins",
+                        "lastMileTravelString": "1.2 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-12-02 23:25:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "android/static-assets/icons/big_rx.png",
+                            "description": "bolt!"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "bolt!",
+                                  "imageId": "android/static-assets/icons/big_rx.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+
+                          },
+                          "textExtendedBadges": {
+
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "60% OFF",
+                        "subHeader": "UPTO ₹120"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+
+                          },
+                          "video": {
+
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "--"
+                        }
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-086c27fd-8bc3-4f74-9364-d766d2e517fc"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/dehradun/doon-tripple-nine-ballupur-kaulagarh-road-krishna-nagar-rest74852",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "78057",
+                      "name": "Chilli'Z Restro",
+                      "cloudinaryImageId": "gkeymduioynruheoqhlq",
+                      "locality": "Dharampur",
+                      "areaName": "Dharampur",
+                      "costForTwo": "₹400 for two",
+                      "cuisines": [
+                        "Indian",
+                        "Chinese",
+                        "Mughlai"
+                      ],
+                      "avgRating": 4.2,
+                      "parentId": "13645",
+                      "avgRatingString": "4.2",
+                      "totalRatingsString": "34K+",
+                      "sla": {
+                        "deliveryTime": 27,
+                        "lastMileTravel": 3.7,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "25-30 mins",
+                        "lastMileTravelString": "3.7 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-12-03 00:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+
+                          },
+                          "textBased": {
+
+                          },
+                          "textExtendedBadges": {
+
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹39"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+
+                          },
+                          "video": {
+
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "4.0",
+                          "ratingCount": "2.7K+"
+                        },
+                        "source": "GOOGLE",
+                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-086c27fd-8bc3-4f74-9364-d766d2e517fc"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/dehradun/chilliz-restro-dharampur-rest78057",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "74373",
+                      "name": "Walk In Woods",
+                      "cloudinaryImageId": "rx6kpst6wxyw9vvj7wo8",
+                      "locality": "General Mahadev Singh Road",
+                      "areaName": "Ballupur",
+                      "costForTwo": "₹450 for two",
+                      "cuisines": [
+                        "Chinese",
+                        "Biryani"
+                      ],
+                      "avgRating": 4.4,
+                      "parentId": "7148",
+                      "avgRatingString": "4.4",
+                      "totalRatingsString": "30K+",
+                      "sla": {
+                        "deliveryTime": 31,
+                        "lastMileTravel": 2.9,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "30-35 mins",
+                        "lastMileTravelString": "2.9 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-12-02 23:45:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "Rxawards/_CATEGORY-North%20Indian.png",
+                            "description": "Delivery!"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "Delivery!",
+                                  "imageId": "Rxawards/_CATEGORY-North%20Indian.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+
+                          },
+                          "textExtendedBadges": {
+
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹149"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+
+                          },
+                          "video": {
+
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "--"
+                        }
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-086c27fd-8bc3-4f74-9364-d766d2e517fc"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/dehradun/walk-in-woods-general-mahadev-singh-road-ballupur-rest74373",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "69061",
+                      "name": "Subway",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/6/12/caf13ff4-9cc6-4601-b2c0-822d90cb76d4_69061.jpg",
+                      "locality": "Race Course",
+                      "areaName": "Race Course",
+                      "costForTwo": "₹350 for two",
+                      "cuisines": [
+                        "sandwich",
+                        "Salads",
+                        "wrap",
+                        "Healthy Food"
+                      ],
+                      "avgRating": 4.3,
+                      "parentId": "2",
+                      "avgRatingString": "4.3",
+                      "totalRatingsString": "11K+",
+                      "sla": {
+                        "deliveryTime": 24,
+                        "lastMileTravel": 1.2,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-25 mins",
+                        "lastMileTravelString": "1.2 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-12-02 23:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "android/static-assets/icons/big_rx.png",
+                            "description": "bolt!"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "bolt!",
+                                  "imageId": "android/static-assets/icons/big_rx.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+
+                          },
+                          "textExtendedBadges": {
+
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹119"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+
+                          },
+                          "video": {
+
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "4.2",
+                          "ratingCount": "1.8K+"
+                        },
+                        "source": "GOOGLE",
+                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-086c27fd-8bc3-4f74-9364-d766d2e517fc"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/dehradun/subway-race-course-rest69061",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "793100",
+                      "name": "La Pino'z Pizza",
+                      "cloudinaryImageId": "e5f54df4ed8bac458b801ede76ee37d0",
+                      "locality": "Shastri nagar",
+                      "areaName": "Pitambar plaza",
+                      "costForTwo": "₹250 for two",
+                      "cuisines": [
+                        "Pizzas",
+                        "Pastas",
+                        "Italian",
+                        "Desserts",
+                        "Beverages"
+                      ],
+                      "avgRating": 4.3,
+                      "parentId": "4961",
+                      "avgRatingString": "4.3",
+                      "totalRatingsString": "3.8K+",
+                      "sla": {
+                        "deliveryTime": 32,
+                        "lastMileTravel": 6,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "30-35 mins",
+                        "lastMileTravelString": "6.0 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-12-03 05:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "Rxawards/_CATEGORY-Pizza.png",
+                            "description": "Delivery!"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "Delivery!",
+                                  "imageId": "Rxawards/_CATEGORY-Pizza.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+
+                          },
+                          "textExtendedBadges": {
+
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "₹550 OFF",
+                        "subHeader": "ABOVE ₹2499",
+                        "discountTag": "FLAT DEAL"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+
+                          },
+                          "video": {
+
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "--"
+                        }
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-086c27fd-8bc3-4f74-9364-d766d2e517fc"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/dehradun/la-pinoz-pizza-shastri-nagar-pitambar-plaza-rest793100",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "94209",
+                      "name": "Domino's Pizza",
+                      "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/11/11/59a6560c-426c-46c3-bee7-dd3c13a03ff7_94209.JPG",
+                      "locality": "Hathibarkala Salwala",
+                      "areaName": "Hathibarkala",
+                      "costForTwo": "₹300 for two",
+                      "cuisines": [
+                        "Pizzas",
+                        "Italian",
+                        "Pastas",
+                        "Desserts"
+                      ],
+                      "avgRating": 4.4,
+                      "parentId": "2456",
+                      "avgRatingString": "4.4",
+                      "totalRatingsString": "4.7K+",
+                      "sla": {
+                        "deliveryTime": 25,
+                        "lastMileTravel": 2.1,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "20-25 mins",
+                        "lastMileTravelString": "2.1 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-12-02 23:59:00",
+                        "opened": true
+                      },
+                      "badges": {
+
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+
+                          },
+                          "textBased": {
+
+                          },
+                          "textExtendedBadges": {
+
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹59"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+
+                          },
+                          "video": {
+
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "4.1",
+                          "ratingCount": "4.1K+"
+                        },
+                        "source": "GOOGLE",
+                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-086c27fd-8bc3-4f74-9364-d766d2e517fc"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/dehradun/dominos-pizza-salwala-hathibarkala-rest94209",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "106614",
+                      "name": "Udupi Cafe Bangalore Idli",
+                      "cloudinaryImageId": "s83xs409rve66xozk5wy",
+                      "locality": "Karanpur",
+                      "areaName": "Karanpur",
+                      "costForTwo": "₹350 for two",
+                      "cuisines": [
+                        "South Indian",
+                        "Indian",
+                        "Beverages"
+                      ],
+                      "avgRating": 4.2,
+                      "veg": true,
+                      "parentId": "13549",
+                      "avgRatingString": "4.2",
+                      "totalRatingsString": "13K+",
+                      "sla": {
+                        "deliveryTime": 29,
+                        "lastMileTravel": 3,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "25-30 mins",
+                        "lastMileTravelString": "3.0 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-12-02 22:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "Rxawards/_CATEGORY-South%20Indian.png",
+                            "description": "Delivery!"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "Delivery!",
+                                  "imageId": "Rxawards/_CATEGORY-South%20Indian.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+
+                          },
+                          "textExtendedBadges": {
+
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹109"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+
+                          },
+                          "video": {
+
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "4.6",
+                          "ratingCount": "23K+"
+                        },
+                        "source": "GOOGLE",
+                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-086c27fd-8bc3-4f74-9364-d766d2e517fc"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/dehradun/udupi-cafe-bangalore-idli-karanpur-rest106614",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "68758",
+                      "name": "Nath'S Chinese",
+                      "cloudinaryImageId": "e73f25b965f7bb1e80f2d64a03c234b1",
+                      "locality": "Rajpur Road",
+                      "areaName": "Hathibarkala Salwala",
+                      "costForTwo": "₹400 for two",
+                      "cuisines": [
+                        "Chinese"
+                      ],
+                      "avgRating": 4.3,
+                      "parentId": "13608",
+                      "avgRatingString": "4.3",
+                      "totalRatingsString": "22K+",
+                      "sla": {
+                        "deliveryTime": 30,
+                        "lastMileTravel": 3.8,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "30-35 mins",
+                        "lastMileTravelString": "3.8 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-12-02 23:00:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "Rxawards/_CATEGORY-Chinese.png",
+                            "description": "Delivery!"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "Delivery!",
+                                  "imageId": "Rxawards/_CATEGORY-Chinese.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+
+                          },
+                          "textExtendedBadges": {
+
+                          }
+                        }
+                      },
+                      "aggregatedDiscountInfoV3": {
+                        "header": "ITEMS",
+                        "subHeader": "AT ₹99"
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+
+                          },
+                          "video": {
+
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "--"
+                        }
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-086c27fd-8bc3-4f74-9364-d766d2e517fc"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/dehradun/naths-chinese-rajpur-road-hathibarkala-salwala-rest68758",
+                      "type": "WEBLINK"
+                    }
+                  },
+                  {
+                    "info": {
+                      "id": "307503",
+                      "name": "Kalsang Friends Corner",
+                      "cloudinaryImageId": "dwniokd1xz0hkihrqkt6",
+                      "locality": "Race Course",
+                      "areaName": "Race Course",
+                      "costForTwo": "₹650 for two",
+                      "cuisines": [
+                        "Chinese",
+                        "Thai"
+                      ],
+                      "avgRating": 4.4,
+                      "parentId": "13684",
+                      "avgRatingString": "4.4",
+                      "totalRatingsString": "2.4K+",
+                      "sla": {
+                        "deliveryTime": 33,
+                        "lastMileTravel": 1.2,
+                        "serviceability": "SERVICEABLE",
+                        "slaString": "30-40 mins",
+                        "lastMileTravelString": "1.2 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                      },
+                      "availability": {
+                        "nextCloseTime": "2025-12-02 22:30:00",
+                        "opened": true
+                      },
+                      "badges": {
+                        "imageBadges": [
+                          {
+                            "imageId": "Rxawards/_CATEGORY-Chinese.png",
+                            "description": "Delivery!"
+                          },
+                          {
+                            "imageId": "Ratnesh_Badges/Rx_Awards_2025/Momo.png",
+                            "description": "Delivery!"
+                          },
+                          {
+                            "imageId": "newg.png",
+                            "description": "Gourmet"
+                          }
+                        ]
+                      },
+                      "isOpen": true,
+                      "aggregatedDiscountInfoV2": {
+
+                      },
+                      "type": "F",
+                      "badgesV2": {
+                        "entityBadges": {
+                          "imageBased": {
+                            "badgeObject": [
+                              {
+                                "attributes": {
+                                  "description": "Delivery!",
+                                  "imageId": "Rxawards/_CATEGORY-Chinese.png"
+                                }
+                              },
+                              {
+                                "attributes": {
+                                  "description": "Delivery!",
+                                  "imageId": "Ratnesh_Badges/Rx_Awards_2025/Momo.png"
+                                }
+                              },
+                              {
+                                "attributes": {
+                                  "description": "Gourmet",
+                                  "imageId": "newg.png"
+                                }
+                              }
+                            ]
+                          },
+                          "textBased": {
+
+                          },
+                          "textExtendedBadges": {
+
+                          }
+                        }
+                      },
+                      "differentiatedUi": {
+                        "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                        "differentiatedUiMediaDetails": {
+                          "lottie": {
+
+                          },
+                          "video": {
+
+                          }
+                        }
+                      },
+                      "reviewsSummary": {
+
+                      },
+                      "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                      "restaurantOfferPresentationInfo": {
+
+                      },
+                      "externalRatings": {
+                        "aggregatedRating": {
+                          "rating": "4.5",
+                          "ratingCount": "1.5K+"
+                        },
+                        "source": "GOOGLE",
+                        "sourceIconImageId": "v1704440323/google_ratings/rating_google_tag"
+                      },
+                      "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                    },
+                    "analytics": {
+                      "context": "seo-data-086c27fd-8bc3-4f74-9364-d766d2e517fc"
+                    },
+                    "cta": {
+                      "link": "https://www.swiggy.com/city/dehradun/kalsang-friends-corner-race-course-rest307503",
+                      "type": "WEBLINK"
+                    }
+                  }
+                ],
+                "theme": "Restaurant_Group_WebView_SEO_PB_Theme",
+                "widgetType": "WIDGET_TYPE_POPULAR_BRANDS",
+                "style": {
+                  "width": {
+                    "type": "TYPE_RELATIVE",
+                    "value": 0.41111112,
+                    "reference": "RELATIVE_DIMENSION_REFERENCE_DEVICE_WIDTH"
+                  },
+                  "height": {
+                    "type": "TYPE_RELATIVE",
+                    "value": 0.7027027,
+                    "reference": "RELATIVE_DIMENSION_REFERENCE_WIDTH"
+                  },
+                  "layoutAlignment": "LAYOUT_ALIGNMENT_LEFT"
+                },
+                "collectionId": "84124"
+              }
+            }
+          }
+        }
+      }
+      ]
+  }
+}
