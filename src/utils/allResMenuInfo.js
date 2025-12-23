@@ -19,6 +19,7 @@ import res94209 from "../utils/res94209";
 import res68758 from "../utils/res68758";
 import res307503 from "../utils/res307503";
 import res106614 from "../utils/res106614";
+import res371422 from "../utils/res371422";
 
 const allResMenuInfo = {
     "78973": res1,
@@ -40,7 +41,8 @@ const allResMenuInfo = {
     "94209" : res94209,
     "68758" : res68758,
     "307503" : res307503,
-    "106614" : res106614
+    "106614" : res106614,
+    "371422" : res371422
 
 
 };
