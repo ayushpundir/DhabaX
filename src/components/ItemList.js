@@ -70,7 +70,7 @@ const ItemList = ({ items }) => {
                 {item.card.info.name}
               </span>
               <span className="text-sm font-medium text-green-700">
-                 - {item.card.info.price / 100 || item.card.info.defaultPrice / 100}💲
+                 - ₹{item.card.info.price / 100 || item.card.info.defaultPrice / 100}
               </span>
             </div>
             <p className="text-xs leading-snug text-gray-500">

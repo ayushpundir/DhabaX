@@ -51,7 +51,7 @@ class UserClass extends React.Component{
         return (
         <div className="about-section m-4 p-4 border border-gray-400 rounded-lg bg-gray-100 hover:bg-gray-200">
             <h2>count: {count}</h2>
-            <button onClick={()=>{
+            <button className= "px-4 py-2 bg-blue-600 text-white rounded-md"onClick={()=>{
                 //never update state variables directly
                 this.setState({
                     count : this.state.count +1,
@@ -68,7 +68,7 @@ class UserClass extends React.Component{
             {/* consuming context in class based component here we can't use hooks*/}
             <UserContext.Consumer>
                 {(data) => (
-                    <h4>current loggedInUser :  {data.loggedInUser}</h4>
+                    <h4>current loggedInUser (change the username in the input box on home and it will be updated in real time):  {data.loggedInUser}</h4>
                 )}
             </UserContext.Consumer>
         </div>
